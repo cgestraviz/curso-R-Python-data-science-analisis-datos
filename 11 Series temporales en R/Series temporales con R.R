@@ -1,9 +1,9 @@
 # Series temporales en R
-
+setwd("~/PARA/Archivos/Archivo_ 2022_09_21/Curso_R_Python_Data_Science_Analisis_Datos_Udemy/Clon_curso_R_Python_DataScience/11 Series temporales en R")
 library(readr)
-sbux.df <- read.csv("~/Documents/UDEMY Github/0. Curso R y Python/12 Series temporales en R/2 Trabajar con series temporales en R/sbuxPrices.csv")
+sbux.df <- read.csv("sbuxPrices.csv")
 
-msft.df <- read.csv("~/Documents/UDEMY Github/0. Curso R y Python/12 Series temporales en R/2 Trabajar con series temporales en R/msftPrices.csv")
+msft.df <- read.csv("msftPrices.csv")
 
 
 # Convertir los datos en time-series
